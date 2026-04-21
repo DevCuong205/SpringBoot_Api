@@ -19,16 +19,16 @@ This project is a RESTful API built with Spring Boot for managing users and role
 
 ## ▶️ How to run
 1. Clone the repository
-2. Open in IntelliJ
+2. Open in IntelliJ IDEA
 3. Configure MySQL in application.properties
-4. Run the project
+4. Run the application
 
 ## 📷 API Example
 GET /api/users
 
 Response:
 [
-  {
+{
     "id": 1,
     "username": "admin"
   }
