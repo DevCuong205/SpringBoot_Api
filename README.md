@@ -19,9 +19,20 @@ This project is a RESTful API built with Spring Boot for managing users and role
 
 ## ▶️ How to run
 1. Clone the repository
-2. Configure database in application.properties
-3. Run:
-   ./mvnw spring-boot:run
+2. Open in IntelliJ
+3. Configure MySQL in application.properties
+4. Run the project
+
+## 📷 API Example
+GET /api/users
+
+Response:
+[
+  {
+    "id": 1,
+    "username": "admin"
+  }
+]
 
 ## 📬 API Testing
 Use Postman to test endpoints
